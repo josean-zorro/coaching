@@ -28,7 +28,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.PhotoGallery({
       photos: [
-        "/photos/head_photo.jpg",
+        "photos/head_photo.jpg",
       ],
       layout: "grid"
     })
