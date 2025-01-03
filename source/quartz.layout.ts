@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { Photos } from "./quartz/components/Photos"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -25,6 +26,12 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.PhotoGallery({
+      photos: [
+        "/photos/head_photo.jpg",
+      ],
+      layout: "grid"
+    })
     //Component.Search(),
     //Component.Darkmode(),
     //Component.DesktopOnly(Component.Explorer()),
