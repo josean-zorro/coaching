@@ -5,7 +5,6 @@ import { Photos } from "./quartz/components/Photos"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  analytcisTag: Component.GoogleAnalytics(),
   header: [],
   afterBody: [],
   footer: Component.Footer({
