@@ -78,7 +78,8 @@ export interface QuartzConfig {
 }
 
 export interface FullPageLayout {
-  head: QuartzComponent
+  head: QuartzComponent,
+  analytcisTag: QuartzComponent,
   header: QuartzComponent[]
   beforeBody: QuartzComponent[]
   pageBody: QuartzComponent
@@ -89,4 +90,4 @@ export interface FullPageLayout {
 }
 
 export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right">
-export type SharedLayout = Pick<FullPageLayout, "head" | "header" | "footer" | "afterBody">
+export type SharedLayout = Pick<FullPageLayout, "head" | "analytcisTag" | "header" | "footer" | "afterBody">

@@ -5,12 +5,13 @@ import { Photos } from "./quartz/components/Photos"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
+  analytcisTag: Component.GoogleAnalytics(),
   header: [],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+  //    GitHub: "https://github.com/jackyzha0/quartz",
+  //    "Discord Community": "https://discord.gg/cRFFHYye7t",
     },
   }),
 }

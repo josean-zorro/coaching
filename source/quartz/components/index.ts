@@ -21,6 +21,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import PhotoGallery from "./PhotoGallery"
+import GoogleAnalytics from "./GoogleAnalytics"
 
 export {
   ArticleTitle,
@@ -46,4 +47,5 @@ export {
   Breadcrumbs,
   Comments,
   PhotoGallery,
+  GoogleAnalytics,
 }
