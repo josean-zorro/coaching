@@ -47,7 +47,7 @@ export default ((userOpts?: PhotoGalleryOptions) => {
 
     /* Each image */
     .my-photo-gallery img {
-      max-width: 100%;
+      max-width: 80%;
       height: auto;
       object-fit: cover;
       border: 2px solid #ccc;
