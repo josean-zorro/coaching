@@ -30,7 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
       photos: [
         "photos/head_photo.jpg",
       ],
-      layout: "grid"
+      layout: "block"
     })
     //Component.Search(),
     //Component.Darkmode(),
