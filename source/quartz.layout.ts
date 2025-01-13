@@ -25,13 +25,13 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.PhotoGallery({
       photos: [
         "photos/head_photo.jpg",
       ],
-      layout: "block"
-    })
+      layout: "stacked"
+    }),
+    Component.MobileOnly(Component.Spacer()),
     //Component.Search(),
     //Component.Darkmode(),
     //Component.DesktopOnly(Component.Explorer()),
