@@ -190,10 +190,10 @@ a {
 
     & .sidebar.left {
       z-index: 1;
+      gap: 0;
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0;
         align-items: center;
         position: initial;
         display: flex;
