@@ -9,8 +9,7 @@ title: 關於我
 為了持續精進我的教練專業，目前我正積極準備[國際教練聯盟 (ICF)](https://icftaiwan.org/) 認證，為每一位個案提供兩次免費的教練諮詢機會（過程中會錄音，但對談內容絕對保密，僅供我個人學習和認證審核之用）。**如果你正對未來感到迷惘，或是覺得自己好像在原地打轉，歡迎點擊下方的連結**，我會支持你克服挑戰，找到清晰的方向，並陪伴你勇敢地付諸實行。
 
 + [教練對談（線上）](https://book.morgen.so/joseanzorro/online-coaching)
-+ [教練對談（台中 - 好動作工作室)](https://book.morgen.so/joseanzorro/coaching-move-better)
-+ [教練對談（台中 - 勝美敦美）](https://book.morgen.so/joseanzorro/coaching-meeting-room)
++ [教練對談（台中）](https://book.morgen.so/joseanzorro/coaching-meeting-room)
 
 
 
