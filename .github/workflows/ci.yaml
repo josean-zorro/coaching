@@ -69,6 +69,7 @@ jobs:
       - name: Copy raw HTML folder
         run: |
           cp -r raw_html/* public/
+          cp -r content/cal-widget.html public/
         working-directory: ./source
 
       - name: Setup GitHub Pages
