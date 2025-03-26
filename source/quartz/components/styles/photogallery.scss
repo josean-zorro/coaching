@@ -20,7 +20,7 @@
 // Media query using the $mobile variable
 @media all and ($mobile) {
   .my-photo-gallery img {
-    width: 50%;
+    width: 20%;
     max-width: none;
     margin: 0 auto;
     display: block;
