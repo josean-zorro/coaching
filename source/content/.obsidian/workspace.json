@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a7629d347554e8bf",
+        "id": "c3443848ffac5832",
         "type": "tabs",
         "children": [
           {
-            "id": "ea11757c0be04d35",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2d80dcb2a7cf1918",
+            "id": "fc015198a0b5253c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +21,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,10 +174,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b77831b90dd9f87b",
+  "active": "fc015198a0b5253c",
   "lastOpenFiles": [
-    "index.md",
     "Untitled.md",
+    "index.md",
     "category-folder/Some note.md",
     "category-folder/index.md",
     "category-folder"
