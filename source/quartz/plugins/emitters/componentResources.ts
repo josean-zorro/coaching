@@ -106,6 +106,27 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       
       document.head.appendChild(gtagScript);
     `)
+  } else if (cfg.analytics?.provider === "gtm") {
+    const tagId = cfg.analytics.tagId
+    componentResources.afterDOMLoaded.push(`
+      const gtagScript = document.createElement('script');
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=${tagId}';
+      gtagScript.defer = true;
+      gtagScript.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', '${tagId}', { send_page_view: false });
+        gtag('event', 'page_view', { page_title: document.title, page_location: location.href });
+        document.addEventListener('nav', () => {
+          gtag('event', 'page_view', { page_title: document.title, page_location: location.href });
+        });
+      };
+      
+      document.head.appendChild(gtagScript);
+    `)
   } else if (cfg.analytics?.provider === "plausible") {
     const plausibleHost = cfg.analytics.host ?? "https://plausible.io"
     componentResources.afterDOMLoaded.push(`
