@@ -1,3 +1,25 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+.right.sidebar .cal-cta {  
+  position: sticky;  
+  bottom: 16px;  
+  display: block;  
+  padding: 0.75rem 1rem;  
+  border-radius: 9999px;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);  
+  text-decoration: none;  
+  background: #000000;  
+  color: #ffffff;  
+  border: 1px solid var(--lightgray);  
+    
+  // Center the button within the sidebar  
+  width: fit-content;  
+  margin: 0 auto;  
+  text-align: center;  
+    
+  &:hover {  
+    background: #333333;  
+    color: #ffffff;  
+  }  
+}
