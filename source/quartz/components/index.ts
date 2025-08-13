@@ -24,7 +24,8 @@ import Comments from "./Comments"
 import PhotoGallery from "./PhotoGallery"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
-import Cal from "./Cal"
+import CalEmbed from "./CalEmbed"
+import CalBoot from "./CalBoot"
 
 export {
   ArticleTitle,
@@ -53,5 +54,6 @@ export {
   Flex,
   PhotoGallery,
   ConditionalRender,
-  Cal,
+  CalEmbed,
+  CalBoot,
 }
